@@ -1,0 +1,21 @@
+{
+  "name": "all-demo",
+  "version": "1.0.0",
+  "description": "A demo project showcasing release-it capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running tests...\" && exit 0",
+    "build": "echo 'Building project...' && mkdir -p dist && echo 'console.log(\"Hello from v${npm_package_version}\");' > dist/app.js",
+    "release": "release-it",
+    "release:dry-run": "release-it --dry-run",
+    "release:ci": "release-it --ci",
+    "prerelease": "npm test && npm run build"
+  },
+  "keywords": ["release", "automation", "demo"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^10.0.1",
+    "release-it": "^19.0.5"
+  }
+}

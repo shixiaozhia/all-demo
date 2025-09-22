@@ -1,0 +1,9 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "description": "Example package A",
+  "main": "src/index.js",
+  "dependencies": {
+    "package-b": "^1.0.0"
+  }
+}
