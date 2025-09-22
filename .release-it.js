@@ -14,11 +14,9 @@ module.exports = {
   },
   
   // GitHub 配置 (需要设置 GITHUB_TOKEN 环境变量)
+  // 禁用 GitHub Release
   github: {
-    release: true,
-    releaseName: 'v${version}',
-    preRelease: false,
-    releaseNotes: null // 使用自动生成的变更日志
+    release: false // 这里改为 false
   },
   
   // 插件配置
