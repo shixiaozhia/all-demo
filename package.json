@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Running tests...\" && exit 0",
-    "build": "echo 'Building project...' && mkdir -p dist && echo 'console.log(\"Hello from v${npm_package_version}\");' > dist/app.js",
+    "build": "echo Building project... && if not exist dist mkdir dist && echo console.log(\\\"Hello from v%npm_package_version%\\\"); > dist/app.js",
     "release": "release-it",
     "release:dry-run": "release-it --dry-run",
     "release:ci": "release-it --ci",
