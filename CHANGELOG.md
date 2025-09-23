@@ -3,6 +3,8 @@
 所有项目的版本变更历史都将记录在此文件中。
 
 
+## [1.2.1](https://github.com/shixiaozhia/all-demo/compare/v1.2.0...v1.2.1) (2025-09-23)
+
 # [1.2.0](https://github.com/shixiaozhia/all-demo/compare/v1.1.1...v1.2.0) (2025-09-22)
 
 
